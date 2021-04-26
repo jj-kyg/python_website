@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<svg version="1.1" id="downloadSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve" height="512" width="512">
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-262.2323" y1="1113.7673" x2="837.7674" y2="1113.7673" gradientTransform="matrix(-1 0 0 -1 887.7676 1348.5658)">
+		<stop offset="0" style="stop-color: rgb(148, 0, 211);"/>
+		<stop offset="1" style="stop-color: rgb(71, 42, 170);"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M1150,234.798L1150,234.798c0,50.609-41.027,91.636-91.635,91.636H141.636&#xA;&#9;&#9;C91.027,326.434,50,285.408,50,234.799v0c0-50.609,41.027-91.636,91.636-91.636h916.729&#xA;&#9;&#9;C1108.973,143.163,1150,184.189,1150,234.798z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-78.5891" y1="747.2247" x2="837.7673" y2="747.2247" gradientTransform="matrix(-1 0 0 -1 887.7676 1348.5658)">
+		<stop offset="0" style="stop-color: rgb(114, 27, 121);"/>
+		<stop offset="1" style="stop-color: rgb(0, 0, 255);"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M966.357,509.705v183.271H141.636C91.027,692.977,50,651.95,50,601.341v0&#xA;&#9;&#9;c0-50.609,41.027-91.636,91.636-91.636H966.357z"/>
+	<rect x="962.559" y="509.706" fill="#FFFFFF" width="183.271" height="183.271" style="fill: rgb(204, 204, 204);"/>
+	<rect x="962.559" y="140.48" fill="#FFFFFF" width="187.441" height="185.958" style="fill: rgb(204, 204, 204);"/>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-251.236" y1="380.6821" x2="837.7674" y2="380.6821" gradientTransform="matrix(-1 0 0 -1 887.7676 1348.5658)">
+		<stop offset="0" style="stop-color: rgb(148, 0, 211);"/>
+		<stop offset="1" style="stop-color: rgb(71, 42, 170);"/>
+	</linearGradient>
+	<path fill="url(#SVGID_3_)" d="M1139.004,967.884L1139.004,967.884c0,50.609-41.027,91.636-91.636,91.636H50V876.248h997.368&#xA;&#9;&#9;C1097.977,876.248,1139.004,917.275,1139.004,967.884z"/>
+	<rect x="50" y="876.248" fill="#FFFFFF" width="183.272" height="183.272" style="fill: rgb(204, 204, 204);"/>
+</g>
+</svg>

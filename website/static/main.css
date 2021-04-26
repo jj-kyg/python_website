@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background: url('./images/bg-desktop-dark.jpg');
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.headline {
+  font-size: 30px;
+  color: #fff;
+}
+
+#undraw {
+  justify-self: right;
+  margin-top: 20px;
+  width: 600px;
+}
+
+.logo, .nav-btns, .nav-icon {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 80px;
+  margin-right: 15px;
+  padding: 7px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 80%;
+}
+
+.container {
+  height: 600px;
+  padding: 30px;
+  display: flex;
+}
+
+.container p {
+  margin-top: 20px;
+  color: rgb(108, 99, 255);
+  font-size: 20px;
+}
+
+.home-text {
+  text-align: start;
+  margin-left: 40px;
+  color: rgb(47, 46, 65);
+}
+
+.logo a {
+  letter-spacing: 7px;
+  font-size: 50px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 15rem;
+}
+
+.sign-up-form, .login-form {
+  margin: 30px auto;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+}
+
+.sign-up-form, .login-form form {
+  grid-column: 2;
+}
+
+#sign-up-img {
+  width: 20rem;
+}
+
+#login-img {
+  width: 15rem;
+  justify-self: center;
+}
+
+.error {
+  padding: 20px;
+  background-color: red;
+  color: #fff;
+}
+
+.success {
+  padding: 20px;
+  background-color: green;
+  color: #fff;
+}
+
+.success-login {
+  padding: 20px;
+  color: rgb(47, 46, 65);
+  text-align: center;
+}
+
+#todos {
+  height: 500px;
+  color: black;
+}
+
+#todos-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  margin: -1rem auto;
+}
+
+.todo-on-form {
+  display: flex;
+  color: rgb(47, 46, 65);
+  flex-direction: column;
+  height: 300px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.todo-title {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 10px auto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.field {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.field input {
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.nav-icon {
+  visibility: hidden;
+}
+
+#note {
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  grid-column: 1;
+  grid-row: 2;
+  
+}
+
+.added-todos {
+  display: flex;
+  flex-direction: column;
+}
+
+.added-todos button {
+  margin-bottom: 10px;
+}
+
+
+#todos-form {
+  background: rgb(37, 39, 60);
+  margin: 0 auto;
+  width: 440px;
+  display: grid;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .headline {
+    font-size: 20px;
+  }
+}
